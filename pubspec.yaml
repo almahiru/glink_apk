@@ -1,5 +1,4 @@
-
-name: Glink Network
+name: glink_network
 description: Aplikasi pelanggan Glink (tagihan, paket, bayar, tiket gangguan)
 publish_to: "none"
 version: 1.0.0+1
