@@ -39,9 +39,9 @@ jobs:
           name: aplikasi-isp-apk
           path: app/build/app/outputs/flutter-apk/app-release.apk
 
-      - name: Rilis APK (agar bisa diunduh langsung)
+      - name: Rilis APK
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v1.0.${{ github.run_number }}
-          name: Aplikasi ISP v1.0.${{ github.run_number }}
+          name: Glink Network v1.0.${{ github.run_number }}
           files: app/build/app/outputs/flutter-apk/app-release.apk
